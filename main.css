@@ -1,0 +1,16 @@
+.hero.gradient {
+    background: linear-gradient(45deg, red, purple 90%);
+}
+
+a.navbar-item.navButton {
+    color: white;
+}
+
+a.navbar-item.navButton:hover {
+    color: black;
+    background-color: white;
+}
+
+#techGun {
+    margin: 15px auto 0 auto;
+}

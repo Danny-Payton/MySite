@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="main.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
@@ -9,7 +10,7 @@
     <title>Daniel Payton</title>
 </head>
 <body>
-<section class="hero is-light is-medium">
+<section class="hero gradient is-large">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
         <nav class="navbar">
@@ -22,14 +23,14 @@
           </span>
                 </div>
                 <div class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item is-active">
-                        Meet me
-                    </a>
-                    <a class="navbar-item">
-                        My Projects
-                    </a>
-                    <span class="navbar-item">
+                    <div class="navbar-end">
+                        <a class="navbar-item navButton">
+                            Meet me
+                        </a>
+                        <a class="navbar-item navButton">
+                            My Projects
+                        </a>
+                        <span class="navbar-item">
               <a class="button is-dark" href="https://github.com/Danny-Payton" target="_blank">
                 <span class="icon">
                   <i class="fab fa-github"></i>
@@ -37,27 +38,84 @@
                 <span>My Github</span>
               </a>
             </span>
+                    </div>
                 </div>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <div class="hero-body">
         <div class="container has-text-centered">
-            <h1 class="title">
+            <h1 class="title has-text-white is-size-1">
                 Hello, I'm Daniel.
             </h1>
-            <h2 class="subtitle">
+            <h2 class="subtitle has-text-white">
                 I'm a beginner web developer.
             </h2>
         </div>
     </div>
 </section>
-<section class="section">
-    <div class="container">
+<section class="hero is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered is-size-3" style="color:red;">
+                    I'm currently a computer science student at Texas Tech!
+                </div>
 
+                <div class="column is-two-thirds">
+                    <figure class="image is-128x128" id="techGun">
+                        <img src="TechGun.png">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds"><p id="typeCode"></p></div>
+
+                <div class="column has-text-centered is-size-3">
+                    Languages I know:
+
+                    <ul class="is-size-4">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Javascript</li>
+                        <li>HTML / CSS</li>
+                        <li>Typescript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hero is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered is-size-3">
+                    Languages I know:
+
+                    <ul class="is-size-4">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Javascript</li>
+                        <li>HTML / CSS</li>
+                        <li>Typescript</li>
+                    </ul>
+                </div>
+
+                <div class="column is-two-thirds"></div>
+            </div>
+        </div>
     </div>
 </section>
 <script src="Hamburger.js"></script>
+<script src="TypingCode.js"></script>
 </body>
 </html>
