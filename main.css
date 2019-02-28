@@ -18,3 +18,8 @@ a.navbar-item.navButton:hover {
 .hamburger {
     color: white;
 }
+
+/* This Isnt Working!*/
+#typeCode {
+    font-family: Courier;
+}
